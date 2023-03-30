@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Montserrat", sans-serif;
+	scroll-behavior: smooth;
+}
+
+:root {
+	---background: #2d2d3a;
+	---textColor: #ffffff;
+	---bgColor: #009e66;
+}
+
+body {
+	position: relative;
+	width: 100%;
+	background-color: var(---background);
+	color: var(---textColor);
+	overflow-x: hidden;
+}
+
+.textColor {
+	color: var(---bgColor);
+}
+
+/* scroll bar style  */
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #888;
+	border-radius: 50px;
+	/* Handle on hover --- ::-webkit-scrollbar-thumb:hover */
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: var(---background);
+	padding: 2px;
+	padding-top: 25px;
+	transition: 0.4s;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 99;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 3px solid var(---bgColor);
+}
+
+.navbar a {
+	float: left;
+	color: var(---textColor);
+	text-align: center;
+	padding-right: 25px;
+	padding-top: 15px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 640px) {
+	.nav-link {
+		display: none;
+	}
+}
+
+.tech-stack-icon-container {
+	width: 100px;
+	height: 100px;
+	border: 2px solid var(---textColor);
+	border-radius: 1rem;
+	margin-bottom: 0;
+	background-color: var(---background);
+}
+
+.project-card-btn {
+	padding: 0.5rem 2rem;
+	cursor: pointer;
+	background-color: var(---bgColor);
+	color: var(---textColor);
+	font-weight: 500;
+	font-family: "Montserrat", sans-serif;
+	font-size: 16px;
+}
+
+.project-card-btn:hover {
+	filter: drop-shadow(0px 5px 5px #009e66);
+}
+
+.work-content-description {
+	font-size: 20px;
+}
