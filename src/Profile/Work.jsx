@@ -61,8 +61,8 @@ const Cards = styled.div`
 
 const CardContainer = styled.div`
 	width: 100%;
-	background: #1f2632;
-	border: 5px solid #ffffff;
+	background: #444547;
+	border: 5px solid #009e66;
 	border-radius: 15px 50px;
 	padding: 0.25rem;
 	h1 {

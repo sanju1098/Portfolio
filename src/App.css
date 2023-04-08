@@ -98,3 +98,18 @@ body {
 .work-content-description {
 	font-size: 20px;
 }
+
+.company-name {
+	font-size: 35px;
+	font-weight: 400;
+}
+
+.company-role {
+	font-size: 28px;
+	font-weight: 400;
+}
+
+.company-duration {
+	font-size: 18px;
+	font-weight: 400;
+}

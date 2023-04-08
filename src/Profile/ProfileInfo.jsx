@@ -29,9 +29,9 @@ const ProfComponent = () => {
 
 				<Social>
 					<div className="social-icons">
-						{socialMediaContent.map((social) => {
+						{socialMediaContent.map((social, index) => {
 							return (
-								<span>
+								<span key={index}>
 									<a href={social.redirectURL} target="_blank">
 										{social.icon}
 									</a>

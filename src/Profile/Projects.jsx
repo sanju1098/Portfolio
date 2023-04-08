@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Card from "../Components/Card";
 import { projectContent } from "../config";
+
 const Project = () => {
 	return (
 		<Container id="projects">

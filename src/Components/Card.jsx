@@ -13,7 +13,7 @@ const Card = (props) => {
 			/>
 			<Title>{title}</Title>
 			<div style={{ display: "flex", justifyContent: "space-evenly" }}>
-				{live && <Button redirectLink={live} label="Live Demo" />}
+				{live && <Button redirectLink={live} label="Demo" />}
 				{gitrepo && <Button redirectLink={gitrepo} label="GIT Repo" />}
 			</div>
 		</Container>

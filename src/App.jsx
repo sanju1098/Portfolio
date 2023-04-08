@@ -5,6 +5,7 @@ import ProfileInfo from "./Profile/ProfileInfo";
 import TechStack from "./Profile/TechStack";
 import Project from "./Profile/Projects";
 import Work from "./Profile/Work";
+import Experience from "./Profile/Experience";
 
 function App() {
 	return (
@@ -16,6 +17,7 @@ function App() {
 			<TechStack />
 			<Project />
 			<Work />
+			<Experience />
 		</div>
 	);
 }
