@@ -17,7 +17,6 @@ const ExpCard = (props) => {
 	return (
 		<Container>
 			<CompanyDetail>
-				<img src={companyLogo} />
 				<span>
 					<p className="company-name">{companyName}</p>
 					<p className="company-role">{role}</p>
@@ -50,9 +49,9 @@ export default ExpCard;
 
 const Container = styled.div`
 	width: 48%;
-	border: 3px solid #ffffff;
+	border: 3px solid #009e66;
 	border-radius: 15px;
-	background-color: #02422c;
+	background-color: #444547;
 	padding: 1.5rem;
 	margin: 0.5rem;
 	display: flex;
@@ -67,18 +66,8 @@ const CompanyDetail = styled.div`
 	display: flex;
 	flex-wrap: wrap;
 
-	img {
-		float: left;
-		margin: 0.15rem;
-		width: 30%;
-		height: 150px;
-		@media (max-width: 840px) {
-			width: 95%;
-		}
-	}
-
 	span {
-		width: 65%;
+		width: 100%;
 		margin: 1rem;
 		@media (max-width: 840px) {
 			width: 95%;
