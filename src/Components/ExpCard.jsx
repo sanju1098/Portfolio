@@ -19,9 +19,13 @@ const ExpCard = (props) => {
 			<CompanyDetail>
 				<span>
 					<p className="company-name">{companyName}</p>
-					<p className="company-role">{role}</p>
+					<p className="company-role">
+						<i>{role}</i>
+					</p>
 					<p className="company-duration">
-						{startDate} - {endDate}
+						<i>
+							{startDate} - {endDate}
+						</i>
 					</p>
 				</span>
 			</CompanyDetail>

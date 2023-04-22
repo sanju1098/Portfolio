@@ -85,7 +85,7 @@ export const projectContent = [
 	{
 		image: portfolio,
 		title: "Portfolio",
-		live: "",
+		live: "https://sanjay-sr-portfolio.netlify.app/",
 		git: "https://github.com/sanju1098/Portfolio",
 	},
 	{
